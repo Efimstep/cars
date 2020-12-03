@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+.menu{
+	background: black;
+	font-family: 'Oswald', sans-serif;
+	position: fixed;
+	width: 230px;
+	color: white;
+	text-align: center;
+	height: 100%;
+	top: 0px;
+	font-size:20px;
+
+}
+.content{
+	width: calc(100% - 230px);
+	margin-left: 230px;
+	color: white;
+	height: 100%;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-size: 0px;
+	background: url("машина.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 40px;
+box-sizing: border-box;
+	
+
+
+}
+
+a{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid rgba(255,255,255,0.5);
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 20px;
+	transition: 0.3s;
+	font-family: 'East Sea Dokdo', cursive;
+
+}
+a:hover{
+	border: 1px solid rgba(255,255,255,1);
+	background:  rgba(255,255,255,0.1);
+}
+img{
+	
+	height: 530px;
+	width: 50%;
+	filter: grayscale(80%);
+	transition: 0.3s;
+	object-fit: cover;
+
+
+}
+img:hover{
+	filter: grayscale(0%);
+
+}
+h2{
+	font-size: 50px;
+	margin-bottom: 10px;
+	text-shadow: 0px 0px 0px orange;
+	transition: 0.3s;
+
+}
+
+
+
